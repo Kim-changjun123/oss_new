@@ -35,20 +35,38 @@ Arduino IDE의 가격은 **무료**입니다. 사용자는 소프트웨어를 �
 #### 1. 자동들여쓰기 정리
 아두이노는 사용자의 쉽고 편리한 사용을 위해 **자동들여쓰기**를 제공합니다.
  
-void setup() {pinMode(13, OUTPUT);}       void setup() {pinMode(13, OUTPUT);}
+void setup() {pinMode(13, OUTPUT);}      
+void loop()                              
+{                                        
+  digitalWrite(13, HIGH);  
+  
+  delay(1000);  
+  
+  digitalWrite(13, LOW);  
+  
+  delay(1000);                                
+}
 
-void loop()                               void loop()
-{                                         {
-  digitalWrite(13, HIGH);                        digitalWrite(13, HIGH);
-  delay(1000);                               delay(1000);
-  digitalWrite(13, LOW);                            digitalWrite(13, LOW);
-  delay(1000);                                delay(1000);
-}                                          }
-좌측코드의 경우 들여쓰기가 되어있는 코드이고 우측코드는 들여쓰기 안되어있는 코드입니다.
-한 눈에 봐도 좌측이 코드의 가독성이 높고 깔끔하고 심미적으로 좋아보이고 이는 사용자의 실수를 줄이고 어떤 코드가 어떻게 작용하는지 파악에 용이하게 해줍니다.
-그럼 이 어마어마하고 놀랍고 신비로운 능력을 어떻게 사용하는지 알아봅시다.
+void setup() {pinMode(13, OUTPUT);}  
+
+void loop()                              
+{                                        
+     digitalWrite(13, HIGH);                      
+            delay(1000);                             
+    digitalWrite(13, LOW);                           
+  delay(1000);                                
+}
+
+상단코드의 경우 들여쓰기가 되어있는 코드이고 하단코드는 들여쓰기 안되어있는 코드입니다.  
+
+한 눈에 봐도 상단이 코드의 가독성이 높고 깔끔하고 심미적으로 좋아보이고 이는 사용자의 실수를 줄이고 어떤 코드가 어떻게 작용하는지 파악에 용이하게 해줍니다.  
+
+그럼 이 어마어마하고 놀랍고 신비로운 능력을 어떻게 사용하는지 알아봅시다.  
+
 Windows 운영체제를 사용하는 사용자의 경우 Ctrl + T  
-Mac 운영체제를 사용하는 사용자의 경우 Cmd + T
+
+Mac 운영체제를 사용하는 사용자의 경우 Cmd + T  
+
 단지 두 번의 손가락 움직임으로 가독성을 높여주고 피로를 줄여주는 놀라운 마법을 아두이노 사용자라면 누구든 사용할 수 있습니다.
 
 #### 2. 구문 강조(Syntax Highlighting)
