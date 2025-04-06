@@ -1,6 +1,6 @@
 # 제목: 아두이노 통합 개발 환경(Arduino IDE) 조사  
 
-![Arduino IDE 이미지](./Arduino IDE 이미지.png)
+![Image](https://github.com/user-attachments/assets/8da223ef-5fe9-4cf3-88f0-244c0b77ace9)
 ## 팀원    
 스마트생물산업기계공학과 2024008578 김창준 (Kim-changjun123)  
 스마트생물산업기계공학과 2022115398 유선민 (Yoosunmin)  
